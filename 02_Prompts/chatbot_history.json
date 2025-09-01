@@ -1,0 +1,34 @@
+[
+    {
+        "role": "user",
+        "content": "hello"
+    },
+    {
+        "role": "assistance",
+        "content": "It's nice to chat with you. Is there anything I can help you with or would you like to just have a casual conversation?"
+    },
+    {
+        "role": "user",
+        "content": "2-2"
+    },
+    {
+        "role": "assistance",
+        "content": "That's a simple math problem. The answer to 2 - 2 is 0."
+    },
+    {
+        "role": "user",
+        "content": "multipy with 100"
+    },
+    {
+        "role": "assistance",
+        "content": "To multiply 0 by 100, the result is still 0."
+    },
+    {
+        "role": "user",
+        "content": "cgpa is 8.49 what will %"
+    },
+    {
+        "role": "assistance",
+        "content": "To convert CGPA (Cumulative Grade Point Average) to Percentage, you can use the following formula:\n\nCGPA x 9.5 = Percentage\n\nWhere 9.5 is the maximum CGPA value (usually 10/10).\n\nSo, for a CGPA of 8.49:\n\n8.49 x 9.5 = 80.505%\n\nRounding to two decimal places, the percentage is approximately 80.51%."
+    }
+]

@@ -1,0 +1,10 @@
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+
+load_dotenv()
+
+model = ChatGroq(model="llama-3.1-8b-instant", temperature=0.5)
+
+result = model.invoke("what is the best use AI")
+
+print(result.content) 

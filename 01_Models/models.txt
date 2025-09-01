@@ -1,0 +1,23 @@
+There are two types of models:
+
+1. Language Models: It takes text as input, Model process it then return back a text output.
+
+2. Embedding models: It takes text as input, Model process it then return back some series of numbers (known as Embeddings or vectors) with represents the input text.
+
+___________________________________________________________________________
+
+Further Language Models are divided into two types:
+
+1. LLMs: General purpose models used for plain text generation.
+      --> Training data - General text(books, articles)
+      --> Memory & context - No built-in memory
+      --> Role awareness - No understanding of "user" and "assistance" role
+      --> Examples - GPT-3, Llama-2-7B, Mistral-7B, OPT-1.3B
+      --> Use cases- Text generation, summarization, translation, creative writing, code generation
+
+2. Chat Models: Language model that are specialized for conversational tasks.
+      --> Training data - Fine-tuned on chat datasets (dialogues, chat conversation)
+      --> Memory & context - Supports structured conversation history
+      --> Role awareness - Understands "system", "user" and "assistance" role
+      --> Examples - GPT-4, GPT-3.5-turbo, Llama-2-Chat, Mistral-Instruct, Cloud
+      --> Use cases- conversational AI, chat bots, virtual assistance, customer support, AI tutors
